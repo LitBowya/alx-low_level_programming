@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints all single number of base 10 starting from 0,
  * followed by a new line
@@ -8,7 +9,7 @@ int main(void)
 {
 	int a;
 
-	for (a = 48; a <= 58; a++)
+	for (a = 48; a < 58; a++)
 	{
 		putchar(a);
 	}

@@ -41,7 +41,6 @@ int main(void)
 	x = q + 1;
 	}
  	putchar('\n');
-	
 	return (0);
 	
 }

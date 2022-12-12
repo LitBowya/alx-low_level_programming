@@ -39,9 +39,10 @@ int main(void)
 	q = 48;
 	y = p;
 	x = q + 1;
-	putchar('\n');
 	}
+ 	putchar('\n');
+	
 	return (0);
-
+	
 }
 

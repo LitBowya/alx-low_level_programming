@@ -3,6 +3,7 @@
 /**
  * *_atoi - convert string to number.
  *
+ *
  * @s: string reference
  * Return: conversion
  */
@@ -22,8 +23,9 @@ int _atoi(char *s)
 			brk = 1;
 		}
 		else if (brk == 1)
-			break;
+		break;
 	}
+
 	res = sig *res;
 	return (res);
 }
